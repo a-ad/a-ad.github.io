@@ -6,16 +6,16 @@ google_analytics: UA-137390799-1
 title: Icarus
 description:
 url: ""
-baseurl: ""
+baseurl: "a-ad.github.io/book-review"
 twitter_username:
 default_img:
 
 # Profile settings
 name: Aditya Arora
 profile_img: https://lh3.googleusercontent.com/ZwfjkyyyUNVTyNE3U-1hGu8fO7HwO7Ql54U5OI3xLb_UMETjIRpIqlA1XSwD6tbwUu0sk2zNwSk9xLLczuOM1BdnMH0ICC377BKb1_hiVybEPgaIjvzwP_MrAl8E63ThBF23D4un7bcLs5Hp_eWl5oa3M2gIPgVa1FySCYFzkLyATnvm2WcuMibIKO7AjdusQH0AaG9LTeo1PXBLGL6RRuZbtMsrbBWYEoTOdIDK6AeGdPomvHGKvBEknsxzVEhLXR7BELaujSIZ5KaJaK2BugrRC0KK3BDwpYH57bUfwk0UXmIaXkiZS4gBsc97MweyuVmQbYSrg85X0w_yqad0yL72plkXoOtiCkOxczyjgEjwMzNqEZ-5N9-cFhvxOH8SAcNh1vSxmU-M4Wn8iIn5Q5YUc0Y5EJ7_w9AwepR7NNnB8YYeXiRs4tX_1Cg89JIIwV0g4K2YRrp820I3xl_Mkm_vUfzCtksh2LKWjkGoUa5tW2gAfBPOS6DFDxQH-pJ0EUaarwGJGyK0Z2Jb46U2-HOS6M5uzm55T6khYJSx6TTEjyUeoV1xlni5OYhnSRIV-nmwD1ssjgzJEeIf8tsa3-BNDnOIZaf2JBYzQBpPrDRIWMVVBTzT2gvSOPHDqLV0vtmO1IfZnEcmjSNkPbkbXITOTWaBXh1dV87D9D6IqPymf_DWcaavsR7Aa-uIupJPndKucCF000UGupt_vJZwuuaYeg=s1642-no
-profile:
+profile: A student at the University of Waterloo, I often have time to do some reading. Especially after quitting social media for the most part
 social:
-  github: arora-aditya
+  github: a-ad
 
 # Build settings
 markdown: kramdown

@@ -6,9 +6,7 @@ categories:
   - Non-fiction
   - Business
   - Science
-  - Crime
-    - True-Crime
-description: Bad Blood: Secrets and Lies in a Silicon Valley Startup is a nonfiction book by journalist John Carreyrou, released May 21, 2018. It covers the rise and fall of the firm Theranos, the multibillion-dollar biotech startup headed by Elizabeth Holmes.
+description: "Bad Blood: Secrets and Lies in a Silicon Valley Startup is a nonfiction book by journalist John Carreyrou, released May 21, 2018. It covers the rise and fall of the firm Theranos, the multibillion-dollar biotech startup headed by Elizabeth Holmes."
 image: https://images-na.ssl-images-amazon.com/images/I/71rtQvf5UVL.jpg
 image-sm: https://images-na.ssl-images-amazon.com/images/I/41tmqEUIbSL._SX329_BO1,204,203,200_.jpg
 ---
