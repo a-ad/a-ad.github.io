@@ -6,7 +6,7 @@ google_analytics: UA-137390799-1
 title: Icarus
 description:
 url: ""
-baseurl: "a-ad.github.io/book-review"
+baseurl: "/book-review"
 twitter_username:
 default_img:
 
