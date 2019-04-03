@@ -21,6 +21,7 @@ module Jekyll
       if site.layouts.key? 'category_index'
         dir = site.config['category_dir'] || 'category'
         site.categories.each_key do |category|
+          p category
           category_dir = File.join(dir, Utils.slugify(category))
           site.pages << CategoryPage.new(site, site.source, category_dir, category)
         end

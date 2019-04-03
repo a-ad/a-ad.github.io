@@ -5,7 +5,7 @@
         {{ cat | first }}
       {% endfor %}
     {% endcapture %}
-    {% assign sortedCats = cats | split: ' ' | sort %}
+    {% assign sortedCats = cats | split: ' ' %}
 
     {% for category in sortedCats %}
       <li class="card">

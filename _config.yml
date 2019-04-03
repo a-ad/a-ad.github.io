@@ -4,7 +4,8 @@ permalink: /:year/:month/:day/:title/
 google_analytics: UA-137390799-1
 
 title: Icarus
-description:
+subtitle: My very own book blog!
+description: My thoughts on books
 url: ""
 baseurl: "/book-review"
 twitter_username:
