@@ -1,6 +1,6 @@
 # Site/SEO settings
 email: aditya.arora@uwaterloo.ca
-permalink: /:year/:month/:day/:title/
+permalink: /:title/
 google_analytics: UA-137390799-1
 
 title: Icarus

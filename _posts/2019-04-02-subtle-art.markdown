@@ -2,7 +2,6 @@
 layout: post
 title: "The Subtle Art of Not Giving a F*ck"
 author: "Mark Manson"
-date: 2019-04-02
 categories:
   - Non-fiction
   - Motivational
