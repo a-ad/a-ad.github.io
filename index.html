@@ -27,17 +27,20 @@ layout: default
       <ul itemscope itemtype="http://schema.org/Blog">
 
         {% for post in paginator.posts %}
-
-          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-            <article>
-              <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
-                <!-- <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-                <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
-                <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
-                <span class="preview__more">Read More</span>
-              </a>
-            </article>
-          </li>
+        <div class="post-container" id="{{post.url | remove: '/'}}" >
+          <!--  style="background-image:url({{ post.image }});   background-size: cover; opacity:0.2;"-->
+          <!-- <div style="opacity:1;"> -->
+            <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" style="opacity:1;">
+              <article>
+                <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+                  <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
+                  <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
+                  <span class="preview__more">Read More</span>
+                </a>
+              </article>
+            </li>
+          <!-- </div> -->
+        </div>
 
         {% endfor %}
 
@@ -64,3 +67,24 @@ layout: default
   </div>
 
 </section>
+<style>
+  {% for post in paginator.posts %}
+  {{"#" | append: post.url | remove: "/"}}{
+    position: relative;
+  }
+  {{"#" | append: post.url | remove: "/" | append:":before"  }}{
+
+    background-image:url({{ post.image }});
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0.08;
+  }
+
+  {% endfor %}
+</style>
